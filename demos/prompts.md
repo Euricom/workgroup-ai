@@ -7,11 +7,90 @@ Kan je nakijken of er privicy problemen zijn met volgende policy
 https://chat.deepseek.com/downloads/DeepSeek%20Privacy%20Policy.html
 ```
 
-## Rest API (Express)
+## Reasoning challange
 
 ```
-create a endpoint for users and add the default CRUD methods
-make the endpoint handlers async and user express-async-errors to handle error globally, add Zod input validation for body and params
+A train leaves New York at 8:00 AM traveling west at 60 mph. Another train leaves Los Angeles at 6:00 AM traveling east at 70 mph on the same track. If the distance between New York and Los Angeles is 2,800 miles, at what time will the two trains meet?
+```
+
+```
+If all wibbles are wobbles, and all wobbles are wubbles, can we conclude that all wibbles are wubbles? Explain your reasoning.
+```
+
+## Using AI in the workplace
+
+```
+What are the potential risks and disadvantages of blocking AI usage within a company? Provide a detailed analysis of how restricting AI access could negatively impact productivity, innovation, and competitiveness. Additionally, offer a structured argument with key points and strategies to help convince company management to invest in AI and implement controlled access rather than an outright ban. Keep your response concise and focused on the most critical aspects.
+```
+
+Alternative add 
+
+```
+Include real-world examples, case studies, or data-driven insights to strengthen the argument. Provide references or citations where possible.
+```
+
+## Helper prompts
+
+```
+Generate a cheat sheet for JavaScript array methods.
+
+Can you create a cheat sheet for SQL commands?
+
+Create a cheat sheet for JavaScript regular expressions with common patterns and syntax.
+
+I need a cheat sheet for React component lifecycle methods and their usage.
+
+Give me a list of essential commands for managing a Kubernetes cluster
+
+Give me the frequently used queries for querying a PostgreSQL database with Prisma
+
+What are the most common CSS grid commands?
+```
+
+## Sorting package
+
+```
+Write a TS function to sort a array of objects. I want to use a string expression to specify the property & it should allow nested objects. Finally create all the supporting files so its a full package that I can publish to npm. Add unit tests with vitest. Add a readme that explains the usages. Add a changelog system based on changeset to release it. Present everything in a canvas (ChatGPT only)
+```
+
+## Rest API (Simple)
+
+```
+Within express (v4.x), create an endpoint for users and add the default CRUD methods. Make the endpoint handlers async and user express-async-errors to handle error globally, add Zod input validation for body and params. Use mock data for demonstration. 
+```
+
+## Rest API (Advanced)
+
+```
+ROLE: You are a backend developer specializing in Node.js and Express.
+
+CONTEXT: You are building a REST API using Express.js. Your task is to create an endpoint for managing users, implementing full CRUD (Create, Read, Update, Delete) functionality. To ensure reliability and maintainability, you will:
+- Use **async/await** in all route handlers.
+- Handle errors globally using **express-async-errors**.
+- Validate request parameters and body data using **Zod**.
+
+REQUEST:  
+1. **Create an Express route for users (`/users`).**  
+2. **Implement CRUD operations** (`GET`, `POST`, `PUT`, `DELETE`) with async handlers:
+   - `GET /users` → Fetch all users  
+   - `GET /users/:id` → Fetch a single user by ID  
+   - `POST /users` → Create a new user  
+   - `PUT /users/:id` → Update an existing user  
+   - `DELETE /users/:id` → Delete a user  
+3. **Apply input validation with Zod:**  
+   - Validate request **body** for `POST` and `PUT` requests.  
+   - Validate request **params** (e.g., `id` should be a valid UUID or number).  
+4. **Ensure proper error handling:**  
+   - Use `express-async-errors` to catch and handle errors globally.  
+   - Return appropriate HTTP status codes and error messages.  
+
+LIMITATIONS:  
+- Do not use any database; mock data can be used for demonstration.  
+- Use TypeScript only.  
+- Ensure code is modular and well-structured.  
+
+OUTPUT FORMAT OF THE RESPONSE:  
+Provide a **fully functional Express.js code snippet** implementing the requested features. The code should be properly structured, commented, and easy to understand.
 ```
 
 ## Build a ChatGPT-style Local Ollama Chat Website using HTML, CSS, and JavaScript

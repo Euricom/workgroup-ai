@@ -28,20 +28,28 @@ https://aider.chat/HISTORY.html
 <br/><br/><br/><br/><br/>
 <br/><br/><br/><br/><br/>
 
+# Euricom
+
+<img src="./images/euricom-ai.png" />
+
+<br/><br/><br/><br/><br/>
+<br/><br/><br/><br/><br/>
 
 # The best (programming) models
 
-| Model                 | Input (1m) | Output (1m) | Remarks             |
-| --------------------- | ---------- | ----------- | ------------------- |
-| ChatGPT 4o            | $2.50      | $10.0       |                     |
-| ChatGPT 4o-mini       | $0.15      | $0.60       |                     |
-| ChatGPT o1            | $15.00     | $60.00      | Reasoning model     |
-| **ChatGPT o3-mini**   | **$1.10**  | **$4.40**   | **Reasoning model** |
-| **Claude 3.5 Sonnet** | **$3.00**  | **$15.0**   |                     |
-| Claude 3.5 Haiku      | $0.25      | $1.25       |                     |
-| Claude 3.5 Opus       | $15.00     | $75         |                     |
-| DeepSeek V3           | $0.27      | $1.00       |                     |
-| **DeepSeek R1**       | **$0.55**  | **$2.19**   | **Reasoning model** |
+| Model                 | Input (1m) | Output (1m) | Remarks                     |
+| --------------------- | ---------- | ----------- | --------------------------- |
+| ChatGPT 4o            | $2.50      | $10.0       |                             |
+| ChatGPT 4o-mini       | $0.15      | $0.60       |                             |
+| ChatGPT o1            | $15.00     | $60.00      | Reasoning model             |
+| **ChatGPT o3-mini**   | **$1.10**  | **$4.40**   | **Reasoning model**         |
+| **Claude 3.5 Sonnet** | **$3.00**  | **$15.0**   |                             |
+| Claude 3.5 Haiku      | $0.25      | $1.25       |                             |
+| Claude 3.5 Opus       | $15.00     | $75         |                             |
+| Deepseek V3           | $0.27      | $1.00       |                             |
+| **Deepseek R1**       | **$0.55**  | **$2.19**   | **Reasoning model**         |
+| ----                  |            |             |                             |
+| DeepClaude            | -          | -           | Deepseek R1 + Claude Sonnet |
 
 **Open AI**
 
@@ -94,17 +102,29 @@ https://openrouter.ai/rankings/programming?view=trending
 <br/><br/><br/><br/><br/>
 <br/><br/><br/><br/><br/>
 
-# What about DeepSeek R1
+# What about DeepSeek
 
-- Its a very good reasoning model
-- Very bad privacy policy (chatbot)
+- Has a very good reasoning model
+- It's open source
 - Low cost
+
+- Very bad privacy policy (chatbot)
 - Almost no security (how to build a bomb?)
 - Stolen data
 
+<br/><br/><br/><br/><br/>
+<br/><br/><br/><br/><br/>
+
 <img src="./images/deepseek-italy.png" />
 <img src="./images/deepseek-stole-data2.png" />
-<img src="./images/deepseek-azre.png" />
+<img src="./images/deepseek-us.png" />
+
+Other:
+- https://datanews.knack.be/nieuws/innovatie/ai-robotica/australie-verbiedt-overheidsdiensten-gebruik-ai-tool-deepseek/
+- https://www.bndestem.nl/binnenland/ai-sensatie-in-de-ban-bij-onze-overheid-kabinet-verbiedt-ambtenaren-om-deepseek-te-gebruiken~a2c040ad/?referrer=https%3A%2F%2Fwww.google.com%2F
+- 
+
+
 <img src="./images/deepseek-locally.png" />
 
 Here is a table summarizing the memory and disk space requirements for running various DeepSeek models:
@@ -122,6 +142,8 @@ Here is a table summarizing the memory and disk space requirements for running v
 | DeepSeek R1 14B    | 14 billion     | 32 GB          | ~250 GB          |
 
 <img src="./images/hardware-2.png" width="1000px" />
+
+<img src="./images/deepseek-azure.png" />
 
 <br/><br/><br/><br/><br/>
 <br/><br/><br/><br/><br/>
@@ -205,7 +227,32 @@ App Builders
 - https://srcbook.com/
 - https://screenshottocode.com/
 - https://databutton.com/
+- https://www.tempolabs.ai/
 
+**My favorites (for now)**
+
+Option 1:
+- Cursor - $20
+- ChatGPT / Claude / LibraChat for chat
+- Perplexity for research
+
+Option 2:
+- Euricom API Keys for OpenAI, Anthropic & OpenRouter
+- RooCode for architecture & code
+- LibraChat for chat
+- SuperMaven for fast auto complete
+
+Option 3 (Jetbrean)
+- Euricom API Keys for OpenAI, Anthropic & OpenRouter
+- Continue Dev for coding
+- SuperMaven for fast auto complete
+- LibraChat for chat
+
+Option 4 (Visual Studio - .NET)
+- Euricom API Keys for OpenAI, Anthropic & OpenRouter
+- CoPilot for auto complete & basic edit
+- LibraChat for chat
+- Aider for architecture & code
 
 ## Set the rules
 
@@ -289,6 +336,9 @@ You are an expert in TypeScript, Node.js, Next.js App Router, React, Shadcn UI, 
   Follow Next.js docs for Data Fetching, Rendering, and Routing.
 ```
 
+<br/><br/><br/><br/><br/>
+<br/><br/><br/><br/><br/>
+
 ## Efficiently build applications with AI
 
 **Phase 1 - Brain dump**
@@ -338,6 +388,9 @@ This will guide you in transforming the stubbed-out project from Phase 2 into fu
 - [Claude 3.5 Crash Course for Developers](https://www.youtube.com/watch?v=fMa2zQIkQwM)
 - https://github.com/bhancockio/claude-crash-course-templates
 
+<br/><br/><br/><br/><br/>
+<br/><br/><br/><br/><br/>
+
 ## Additional Tutorials / Articles
 
 Cursor Awesome Rules
@@ -378,12 +431,24 @@ https://www.youtube.com/watch?v=pzgjYW3msKg&t=914s
 <br/><br/><br/><br/><br/>
 <br/><br/><br/><br/><br/>
 
+## Start your AI journey
+
+- Get the API keys
+- Install RooCode / Supermaven
+- Try code challenges
+  - See prompts.md
+  - Your own challange (API, UI, App, ...)
+  - Your own project
+- Create a masterplan.md
+- ...
+  
 ## Training
 
 - [Youtube - aiwithbrandon](https://www.youtube.com/@bhancock_ai)
 - [Productive Developer Workflows with AI Enhanced Cursor IDE](https://egghead.io/courses/productive-developer-workflows-with-ai-enhanced-cursor-ide-a1c02522)
 - [Youtube - The AI Advantage](https://www.youtube.com/@aiadvantage)
 - [Skill Leap AI](https://www.youtube.com/@aiadvantage)
+- [Prompt Engineering Tutorials](https://lawtonsolutions.com/How-To-AI/)
 
 ## Addendum
 
